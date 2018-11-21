@@ -31,9 +31,57 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    .box-1, .box-2, .box-3 {
+        text-align: center;
+    }
+
+    .navbar {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(30, 156, 240);
+    }
+
+    li {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        display: inline;
+    }
+
+    .footer {
+        padding: 20px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: orange;
+        color: white;
+        position: absolute;
+        display: flex;
+        text-align: left;
+    }
+
 </style>
+
+
 <body>
 
+    <div class= "navbar">
+        <ul>
+            <li> Logo</li>
+            <li style="float:right"> Navbar Link</li>
+        </ul>
+    </div>
 
     <div class= "jumboHeading">
         <h1 class="header">Starter Template</h1>
@@ -67,6 +115,30 @@
             examples to help new users get started. We are also always open to 
             feedback and can answer any questions a user may have about Materialize.
         </p>
+    </div>
+
+    <div class="footer">
+        <div class="box-4">
+                <h4>Company Bio</h4>
+                <p>We have provided detailed documentation as well as specific code 
+                    examples to help new users get started. We are also always open to 
+                    feedback and can answer any questions a user may have about Materialize.
+                </p>        
+        </div>
+        <div class="box-5">
+                <h4>Settings</h4>
+                <li>Link 1</li>
+                <li>Link 2</li>       
+                <li>Link 3</li>       
+                <li>Link 4</li>              
+        </div>
+        <div class="box-6">
+                <h4>Connect</h4>
+                <li>Link 1</li>
+                <li>Link 2</li>       
+                <li>Link 3</li>       
+                <li>Link 4</li>              
+        </div>
     </div>
 </div>
 </body>
